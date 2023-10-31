@@ -3,7 +3,7 @@
 export default function Utilities(){
     return(
         <div>
-            Tiện ích 
+            utilities
         </div>
     )
 }
