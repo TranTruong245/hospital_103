@@ -13,7 +13,7 @@ export default function Doctor(){
             <Link href={'/doctor'}><u>Bác sĩ</u></Link>
             </div>
             
-            <div className=" flex flex-row my-5">
+            <div className=" container md:mx-auto flex flex-row my-5">
                 <div className=" mx-3">
                     <input className="form-control me-2" type="text" placeholder="Khoa" />
                 </div>

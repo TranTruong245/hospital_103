@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link';
 import { useState } from 'react'
 import { Button } from "react-bootstrap"
 
@@ -14,8 +15,13 @@ export default function InfoPatient(){
         SetIsSeclectingImage(true);
     }
     return(
-        <div className="container my-5">
-            <div className="flex flex-row">
+        <div className="container-fluid my-3">
+            <div className="flex flex-row mt-2">
+            <Link href={'/'} className="hover-bold" ><u>Trang chủ {">"}</u> </Link>
+            <Link href={'/patient'}><u>Bệnh nhân {">"}</u></Link>
+            <Link href={'/patient/info'}><u>Thông tin</u></Link>
+            </div>
+            <div className="flex flex-row mt-3">
                 <div className="col ">
                     <div className=''>
                         <Image src={'/logohust.png'} alt="ah" height={171} width={180}></Image>

@@ -80,7 +80,7 @@ export default function AppHeader(){
               
             </div>
             <Navbar className="bg-sky-400 ">
-              <ul className="container-fluid flex felx-row items-center uppercase text-sm">
+              <ul className="container-fluid flex felx-row items-center justify-center uppercase text-sm">
                 <li className="me-auto hover:text-gray-800">
                   <Link href="/">Trang chủ</Link>
                 </li>

@@ -21,11 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className='weight-1920'>
         <AppHeader/>
         <div className='container-fluid'>
           {children}
         </div>     
         <AppFooter/>   
+        </div>
+        
       </body>
     </html>
   )

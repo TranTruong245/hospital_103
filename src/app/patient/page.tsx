@@ -15,19 +15,24 @@ export default function Patient(){
     }
     return(
         <div>
-            <div className=" flex flex-row my-5">
-                <div className=" mx-2">
+            <div className="flex flex-row mt-2">
+            <Link href={'/'} className="hover-bold" ><u>Trang chủ {">"}</u> </Link>
+            <Link href={'/doctor'}><u>Bệnh nhân </u></Link>
+            
+            </div>
+            <div className=" container mx-auto flex flex-row my-5">
+                <div className="">
                     <input className="form-control me-2" type="text" placeholder="Mã bệnh nhân" />
                 </div>
                 <div className="mx-2">
-                    <input className="form-control me-2" type="text" placeholder="Tên bệnh nhân"/>
+                    <input className="form-control" type="text" placeholder="Tên bệnh nhân"/>
                 </div>
-                <div className="relative mx-2">
-                    <input className="form-control me-2" type="text" placeholder="Ngày nhập viện" />
-                    <div className="absolute flex items-center top-0 bottom-0 right-2"><FontAwesomeIcon icon={faCalendarDays} /></div>
+                <div className="relative">
+                    <input className="form-control" type="text" placeholder="Ngày nhập viện" />
+                    <div className="absolute flex items-center justify-center top-0 bottom-0 right-2"><FontAwesomeIcon icon={faCalendarDays} /></div>
                 </div> 
                 <div className="relative mx-2">
-                    <input className="form-control me-2" type="text" placeholder="Ngày ra viện" />
+                    <input className="form-control " type="text" placeholder="Ngày ra viện" />
                     <div className="absolute flex items-center top-0 bottom-0 right-2"><FontAwesomeIcon icon={faCalendarDays} /></div>
                 </div>
                 <div className="">

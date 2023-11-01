@@ -23,7 +23,7 @@ export default function InfoDetailDoctor(){
             <div className="container-fluid">
                 <div className="border-t border-gray-300 my-5 "></div>
             </div>
-            <div className=' flex flex-row'>
+            <div className=' flex flex-row container'>
                 <div className='col'>
                 <Card style={{ width: '18rem' }}>
                 <Card.Body>
